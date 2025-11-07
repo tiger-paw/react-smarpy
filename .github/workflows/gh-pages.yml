@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - main
+    - 2-fix-storybook-github-action-build-error # <-- 検証ブランチを追加
 
 jobs:
   build-deploy:
